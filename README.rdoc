@@ -4,7 +4,7 @@ Starify is a wrapper around https://github.com/wbotelhos/raty.
 
 Raty is a jQuery extension that lets you turn elements into star ratings.
 
-Starify takes it one step further and lets you specify a secondary element where the rating will be displayed as you hover over them.
+Starify takes it one step further and lets you specify a secondary element where the rating value will be displayed as you hover over each star. I built this because I wanted to see the value of the star as I hovered over it, for example when I hover over 3/5 stars, I wanted to word "Good" to appear next to the star rating.
 
 == Usage
 

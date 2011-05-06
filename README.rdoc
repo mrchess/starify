@@ -16,7 +16,7 @@ To use starify just pass a config into the new function.
 
 Starify supports all the config options of Raty, plus:
 
-  el    // the jQuery element you are turning into 
+  el    // the jQuery element you are turning into stars
   tipEl // the jQuery element where the tip is placed
   
 Here is an example config:

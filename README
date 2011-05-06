@@ -1,0 +1,35 @@
+== Starify
+
+Starify is a wrapper around https://github.com/wbotelhos/raty.
+
+Raty is a jQuery extension that lets you turn elements into star ratings.
+
+Starify takes it one step further and lets you specify a secondary element where the rating will be displayed as you hover over them.
+
+== Usage
+
+To use starify 
+
+== Config
+
+Starify supports all the config options of Raty, plus:
+
+  el    // the jQuery element you are turning into 
+  tipEl // the jQuery element where the tip is placed
+  
+Here is an example config:
+  var config = {
+    el : $('#stars'),
+    tipEl : $('#tips'),
+  	hintList:   ['Bad', 'Poor', 'Neutral', 'Good', 'Great'],
+  	size:       24,
+  	starHalf:   'star-half-big.png',
+  	starOff:    'star-off-big.png',
+  	starOn:     'star-on-big.png',
+  	scoreName : 'score',
+  	width: 160,
+  	click : function(v) {
+  		alert('Hi, my value is ' + v);
+  	}
+  }
+

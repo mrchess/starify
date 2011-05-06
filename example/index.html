@@ -1,0 +1,27 @@
+<!-- yeah i know this is lazy am just rushing it! -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.raty.min.js"></script>
+<script src="js/starify.min.js"></script>
+<script>
+$(function() {	
+	var config = {
+	  el : $('#stars'),
+	  tipEl : $('#tips'),
+		hintList:   ['Bad', 'Poor', 'Neutral', 'Good', 'Great'],
+		size:       24,
+		starHalf:   'star-half-big.png',
+		starOff:    'star-off-big.png',
+		starOn:     'star-on-big.png',
+		scoreName : 'score',
+		width: 160,
+		click : function(v) {
+			alert('Hi, my value is ' + v);
+		}
+	}
+	
+	$.starify(config);
+	
+});
+</script>
+<div id="stars"></div>
+<div id="tips"></div>

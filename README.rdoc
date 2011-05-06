@@ -24,7 +24,7 @@ Here is an example config:
   var config = {
     el : $('#stars'),
     tipEl : $('#tips'),
-  	hintList:   ['Bad', 'Poor', 'Neutral', 'Good', 'Great'],
+    hintList:   ['Bad', 'Poor', 'Neutral', 'Good', 'Great'],
   	size:       24,
   	starHalf:   'star-half-big.png',
   	starOff:    'star-off-big.png',

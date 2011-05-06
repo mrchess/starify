@@ -8,7 +8,9 @@ Starify takes it one step further and lets you specify a secondary element where
 
 == Usage
 
-To use starify 
+To use starify just pass a config into the new function.
+
+  $.starify(config);
 
 == Config
 
@@ -18,6 +20,7 @@ Starify supports all the config options of Raty, plus:
   tipEl // the jQuery element where the tip is placed
   
 Here is an example config:
+
   var config = {
     el : $('#stars'),
     tipEl : $('#tips'),
@@ -32,4 +35,6 @@ Here is an example config:
   		alert('Hi, my value is ' + v);
   	}
   }
+  
+This will convert `#stars` into a star rating, and as you hover over each star, it will display the value in `#tips`.
 

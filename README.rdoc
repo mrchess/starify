@@ -35,6 +35,15 @@ Here is an example config:
   		alert('Hi, my value is ' + v);
   	}
   }
+  $.starify(config);
+  
+Here is a barebones config, remember that this still uses all of Raty's defaults if you don't specify otherwise:
+
+  var config = {
+    el : $('#stars'),
+    tipEl : $('#tips')
+  }  
+  $.starify(config);
   
 This will convert `#stars` into a star rating, and as you hover over each star, it will display the value in `#tips`.
 
